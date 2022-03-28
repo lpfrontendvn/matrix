@@ -1,0 +1,42 @@
+.matrix-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    min-width: 50%;
+    background-color: #19b648;
+    padding: 15px;
+}
+
+.title{
+  color: #FFC300 ;
+}
+
+.input{
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  width: 80px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.matrix-form-row {
+   display: flex;
+   justify-content: space-between;
+   width: calc(100% - 60px);
+   padding: 10px 30px;
+}
+
+.matrix-form-row span {
+    align-self: center;
+    color: white;
+    font-weight: 500;
+ }
+
